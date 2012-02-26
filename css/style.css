@@ -34,29 +34,34 @@ header
 
 h1, h2, h3, h4
 	{
-		font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		font-family: "HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 		font-weight: 700;
 		margin: 15px 0;
+		outline: 0;
 	}
 
 h1
 	{
 		font-size: 32px;
+		line-height: 39px;
 	}
 
 h2
 	{
 		font-size: 24px;
+		line-height: 29px;
 	}
 
 h3
 	{
 		font-size: 18px;
+		line-height: 23px;
 	}
 
 h4
 	{
 		font-size: 16px;
+		line-height: 19px;
 	}
 
 iframe
@@ -329,6 +334,9 @@ ul
 		background: hsla(200,50%,25%,1);
 		clear: left;
 		color: hsla(0,0%,95%,1);
+		font-family: "HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		font-size: 24px;
+		font-weight: 700;
 		height: 50px;
 		line-height: 50px;
 		text-align: center;
@@ -375,12 +383,15 @@ ul
 #charity article .right section
 	{
 		background: hsla(50,50%,25%,1);
+		font-family: "HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		font-size: 24px;
+		font-weight: 700;
 		height: 50px;
 		line-height: 50px;
 		width: 450px;
 	}
 
-#charity article .right section h2
+#charity article .right section span
 	{
 		color: hsla(0,0%,100%,1);
 		float: left;
