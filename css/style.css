@@ -69,6 +69,11 @@ iframe
 		border: none;
 	}
 
+img
+	{
+		border: none;
+	}
+
 small
 	{
 		font-size: 13px;
