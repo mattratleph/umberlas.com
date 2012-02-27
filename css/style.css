@@ -400,7 +400,12 @@ ul
 #charity article .right section span
 	{
 		float: left;
-		margin: 0 15px;
+		margin: 0 0 0 20px;
+	}
+
+#charity article .right section img
+	{
+		float: right;
 	}
 
 #charity article .right a section:hover
