@@ -2,7 +2,7 @@ body
 	{
 		background: hsla(0,0%,95%,1);
 		color: hsla(0,0%,15%,1);
-		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-size: 16px;
 		font-weight: 200;
 		margin: 0;
@@ -34,7 +34,7 @@ header
 
 h1, h2, h3, h4
 	{
-		font-family: "HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		font-family: "HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-weight: 700;
 		margin: 15px 0;
 		outline: 0;
@@ -339,7 +339,7 @@ ul
 		background: hsla(200,50%,25%,1);
 		clear: left;
 		color: hsla(0,0%,95%,1);
-		font-family: "HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		font-family: "HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-size: 24px;
 		font-weight: 700;
 		height: 50px;
@@ -389,7 +389,7 @@ ul
 	{
 		background: hsla(50,50%,25%,1);
 		color: hsla(0,0%,100%,1);
-		font-family: "HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		font-family: "HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-size: 24px;
 		font-weight: 700;
 		height: 50px;
