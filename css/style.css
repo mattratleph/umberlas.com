@@ -403,6 +403,11 @@ ul
 		margin: 0 20px;
 	}
 
+#charity article .right section img
+	{
+		float: right;
+	}
+
 #charity article .right a section:hover
 	{
 		background: hsla(50,50%,40%,1);
