@@ -388,6 +388,7 @@ ul
 #charity article .right section
 	{
 		background: hsla(50,50%,25%,1);
+		color: hsla(0,0%,100%,1);
 		font-family: "HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 		font-size: 24px;
 		font-weight: 700;
@@ -398,8 +399,6 @@ ul
 
 #charity article .right section span
 	{
-		color: hsla(0,0%,100%,1);
-		display: inline;
 		float: left;
 		margin: 0 20px;
 	}
