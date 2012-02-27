@@ -399,6 +399,7 @@ ul
 #charity article .right section span
 	{
 		color: hsla(0,0%,100%,1);
+		display: inline;
 		float: left;
 		margin: 0 20px;
 	}
