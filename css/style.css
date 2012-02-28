@@ -140,52 +140,52 @@ ul
 
 #twitter
 	{
-		background: hsla(0,0%,15%,1) url(../images/twitter.png) no-repeat;
+		background: hsla(0,0%,15%,1) url(../images/social/twitter.png) no-repeat;
 	}
 
 #tumblr
 	{
-		background: hsla(0,0%,15%,1) url(../images/tumblr.png) no-repeat;
+		background: hsla(0,0%,15%,1) url(../images/social/tumblr.png) no-repeat;
 	}
 
 #flickr
 	{
-		background: hsla(0,0%,15%,1) url(../images/flickr.png) no-repeat;
+		background: hsla(0,0%,15%,1) url(../images/social/flickr.png) no-repeat;
 	}
 
 #vimeo
 	{
-		background: hsla(0,0%,15%,1) url(../images/vimeo.png) no-repeat;
+		background: hsla(0,0%,15%,1) url(../images/social/vimeo.png) no-repeat;
 	}
 
 #youtube
 	{
-		background: hsla(0,0%,15%,1) url(../images/youtube.png) no-repeat;
+		background: hsla(0,0%,15%,1) url(../images/social/youtube.png) no-repeat;
 	}
 
 #twitter:hover
 	{
-		background: hsla(0,0%,30%,1) url(../images/twitter.png) no-repeat;
+		background: hsla(0,0%,30%,1) url(../images/social/twitter.png) no-repeat;
 	}
 
 #tumblr:hover
 	{
-		background: hsla(0,0%,30%,1) url(../images/tumblr.png) no-repeat;
+		background: hsla(0,0%,30%,1) url(../images/social/tumblr.png) no-repeat;
 	}
 
 #flickr:hover
 	{
-		background: hsla(0,0%,30%,1) url(../images/flickr.png) no-repeat;
+		background: hsla(0,0%,30%,1) url(../images/social/flickr.png) no-repeat;
 	}
 
 #vimeo:hover
 	{
-		background: hsla(0,0%,30%,1) url(../images/vimeo.png) no-repeat;
+		background: hsla(0,0%,30%,1) url(../images/social/vimeo.png) no-repeat;
 	}
 
 #youtube:hover
 	{
-		background: hsla(0,0%,30%,1) url(../images/youtube.png) no-repeat;
+		background: hsla(0,0%,30%,1) url(../images/social/youtube.png) no-repeat;
 	}
 
 #c-wrapper
