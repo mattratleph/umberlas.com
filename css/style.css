@@ -11,6 +11,7 @@ body
 
 a
 	{
+		color: hsla(0,0%,0%,1);
 		text-decoration: none;
 	}
 
@@ -317,11 +318,6 @@ ul
 	}
 
 /*Create Page*/
-#create article .right p a, #create article .right p a:visited, #create article .right p a:active, #create article .right p a:hover
-	{
-		color: hsla(0,0%,0%,1);
-	}
-
 #create article
 	{
 		background: hsla(0,0%,100%,1);
