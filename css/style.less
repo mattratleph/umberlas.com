@@ -2,83 +2,42 @@ html {
   font-size: 62.5%;
 }
 body {
-  background: hsl(0,0%,85%);
-  color: hsl(0,0%,25%);
-  font-family: Georgia, Times, "Times New Roman", serif;
+  background: hsl(0,0%,100%);
+  color: hsl(0,0%,0%);
+  font-family: Garamond, Baskerville, Times, serif;
+  text-transform: lowercase;
 }
-a {
-  color: hsl(0,0%,15%);
-  text-decoration: none;
-  &:hover {
-    border-bottom: 1px solid hsl(0,0%,50%);
-  }
+section {
+  margin: 0 auto;
+  max-width: 700px;
+  padding: 3.0rem;
 }
-h1, h2, h3, p, blockquote, ol, ul {
+h1, h2, p, ol {
   margin: 3.0rem 0;
 }
-h1, h2, h3 {
+h2, a {
+  color: hsl(0,0%,50%);
+}
+h1, h2 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100;
 }
 h1 {
-  font-size: 4.0rem;
-  line-height: 6.0rem;
+  font-size: 8.0rem;
+  line-height: 10.0rem;
 }
 h2 {
+  font-size: 6.0rem;
+  line-height: 8.0rem;
+}
+p, ol {
   font-size: 3.0rem;
   line-height: 5.0rem;
 }
-h3 {
-  font-size: 2.0rem;
-  line-height: 4.0rem;
-}
-p, blockquote, ol, ul {
-  font-size: 2.0rem;
-  line-height: 4.0rem;
-}
-blockquote {
-  border-left: 5px solid hsl(0,0%,50%);
-  color: hsl(0,0%,50%);
-  margin-left: 4.0rem;
-  padding-left: 2.0rem;
-}
-ol, ul {
-  margin-left: 4.0rem;
-}
 ol {
   list-style: decimal inside;
+  margin-left: 4.0rem;
 }
-ul {
-  list-style: disc inside;
-}
-article {
-  background: hsla(0,0%,100%,0.1);
-  margin: 0 auto;
-  max-width: 800px;
-  padding: 2.0rem;
-  img {
-    float: left;
-    margin-right: 2.0rem;
-  }
-}
-header {
-  text-align: right;
-  img {
-    float: left;
-    margin-top: 3.0rem;
-  }
-}
-section:nth-of-type(1) {
-  background: hsl(0,50%,75%);
-}
-section:nth-of-type(2) {
-  background: hsl(200,50%,75%);
-}
-section:nth-of-type(3) {
-  background: hsl(50,50%,75%);
-}
-section:nth-of-type(4) {
-  background: hsl(125,50%,75%);
-}
-footer {
-  text-align: center;
+a {
+  text-decoration: none;
 }
