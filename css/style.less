@@ -10,16 +10,13 @@ body {
 section {
   margin: 0 auto;
   max-width: 700px;
-  padding: 3.0rem;
+  padding: 0 3.0rem;
 }
-h1, h2, p, ol {
+h1, h2, h3, p, blockquote, ol, ul {
   margin: 3.0rem 0;
 }
-h2, a {
-  color: hsl(0,0%,50%);
-}
-h1, h2 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+h1, h2, h3 {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-weight: 100;
 }
 h1 {
@@ -30,14 +27,28 @@ h2 {
   font-size: 6.0rem;
   line-height: 8.0rem;
 }
-p, ol {
-  font-size: 3.0rem;
-  line-height: 5.0rem;
+h3 {
+  font-size: 4.0rem;
+  line-height: 6.0rem;
+}
+p, blockquote, ol, ul {
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+}
+blockquote {
+  margin-left: 4.0rem;
+  padding-left: 2.0rem;
+}
+ol, ul {
+  margin-left: 4.0rem;
 }
 ol {
   list-style: decimal inside;
-  margin-left: 4.0rem;
+}
+ul {
+  list-style: disc inside;
 }
 a {
+  color: hsl(0,0%,50%);
   text-decoration: none;
 }
