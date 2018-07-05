@@ -1,0 +1,67 @@
+@import 'reset.css';
+html {
+  font-size: 62.5%;
+}
+body {
+  background: hsl(0,0%,98%);
+  color: hsl(0,0%,30%);
+  font-family: "Helvetica Neue", HelveticaNeue, Arial, sans-serif;
+}
+header, section {
+  background: hsl(0,0%,100%);
+  box-sizing: border-box;
+  margin: 5rem auto;
+  max-width: 80rem;
+  padding: 1.5rem 5rem;
+}
+header {
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  margin-left: 0;
+}
+nav li {
+  display: inline-block;
+  margin: 0 1rem;
+}
+h1, h2, h3, p, blockquote, ol, ul, iframe {
+  font-size: 1.5rem;
+  letter-spacing: .025rem;
+  line-height: 2.5rem;
+  margin: 2rem 0;
+}
+h1, h2 {
+  font-weight: bold;
+}
+h3 {
+  font-style: italic;
+}
+blockquote {
+  margin-left: 4rem;
+  padding-left: 2rem;
+}
+ol, ul {
+  margin-left: 4rem;
+}
+ol {
+  list-style: decimal inside;
+}
+ul {
+  list-style: circle inside;
+}
+p {
+  color: hsl(0, 0%, 60%);
+}
+img {
+  display: block;
+  margin: 2rem auto 1rem;
+  width: 7.5rem;
+}
+a {
+  color: hsl(200,50%,60%);
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
