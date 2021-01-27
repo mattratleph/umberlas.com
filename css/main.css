@@ -6,16 +6,35 @@ body {
   background: hsl(0,0%,98%);
   color: hsl(0,0%,30%);
   font-family: "Helvetica Neue", HelveticaNeue, Arial, sans-serif;
+  text-transform: lowercase;
 }
 header, section {
   background: hsl(0,0%,100%);
   box-sizing: border-box;
-  margin: 5rem auto;
-  max-width: 80rem;
-  padding: 1.5rem 5rem;
+  margin: 2.5rem auto;
+  max-width: 75rem;
+  padding: 1rem 3rem;
 }
-header {
-  text-align: center;
+h1, h2, h3, p, blockquote, ol, ul, iframe {
+  font-size: 1.5rem;
+  letter-spacing: .025rem;
+  line-height: 2.5rem;
+  margin: 2rem 0;
+}
+h1, h2, h3 {
+  font-weight: bold;
+}
+p, blockquote, ol, ul {
+  color: hsl(0, 0%, 60%);
+}
+blockquote, ol, ul {
+  margin-left: 5rem;
+}
+ol {
+  list-style: decimal inside;
+}
+ul {
+  list-style: circle inside;
 }
 nav ul {
   list-style: none;
@@ -25,43 +44,24 @@ nav li {
   display: inline-block;
   margin: 0 1rem;
 }
-h1, h2, h3, p, blockquote, ol, ul, iframe {
-  font-size: 1.5rem;
-  letter-spacing: .025rem;
-  line-height: 2.5rem;
-  margin: 2rem 0;
-}
-h1, h2 {
+strong {
   font-weight: bold;
 }
-h3 {
+em {
   font-style: italic;
-}
-blockquote {
-  margin-left: 4rem;
-  padding-left: 2rem;
-}
-ol, ul {
-  margin-left: 4rem;
-}
-ol {
-  list-style: decimal inside;
-}
-ul {
-  list-style: circle inside;
-}
-p {
-  color: hsl(0, 0%, 60%);
-}
-img {
-  display: block;
-  margin: 2rem auto 1rem;
-  width: 7.5rem;
 }
 a {
   color: hsl(200,50%,60%);
-  font-size: 1.2rem;
-  font-weight: bold;
   text-decoration: none;
-  text-transform: uppercase;
+}
+small {
+  font-size: smaller;
+}
+.center {
+  text-align: center;
+}
+.logo {
+  display: initial;
+  margin: 2rem 0 1rem;
+  width: 7.5rem;
 }
