@@ -22,14 +22,6 @@ header, main {
 header, footer {
   justify-items: center;
 }
-nav ul {
-  list-style: none;
-  margin-left: 0;
-}
-nav li {
-  display: inline-block;
-  margin: 0 1rem;
-}
 h1 {
   color: hsl(0 0% 30%);
   font-weight: bold;
