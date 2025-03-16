@@ -2,39 +2,25 @@
 html {
   font-size: 62.5%;
 }
+body, header, footer {
+  display: grid;
+  gap: 2rem;
+}
 body {
-  background: hsl(0,0%,98%);
-  color: hsl(0,0%,30%);
-  font-family: "Helvetica Neue", HelveticaNeue, Arial, sans-serif;
+  background: hsl(0 0% 98%);
+  color: hsl(0 0% 60%);
+  font: 1.4rem/1.5 "Helvetica Neue", Arial, sans-serif;
+  grid: repeat(3, max-content) / minmax(auto, 75rem);
+  justify-content: center;
+  margin: 2rem;
   text-transform: lowercase;
 }
-header, section {
-  background: hsl(0,0%,100%);
-  box-sizing: border-box;
-  margin: 2.5rem auto;
-  max-width: 75rem;
-  padding: 1rem 3rem;
+header, main {
+  background: hsl(0 0% 100%);
+  padding: 3rem;
 }
-h1, h2, h3, p, blockquote, ol, ul, iframe {
-  font-size: 1.5rem;
-  letter-spacing: .025rem;
-  line-height: 2.5rem;
-  margin: 2rem 0;
-}
-h1, h2, h3 {
-  font-weight: bold;
-}
-p, blockquote, ol, ul {
-  color: hsl(0, 0%, 60%);
-}
-blockquote, ol, ul {
-  margin-left: 5rem;
-}
-ol {
-  list-style: decimal inside;
-}
-ul {
-  list-style: circle inside;
+header, footer {
+  justify-items: center;
 }
 nav ul {
   list-style: none;
@@ -44,24 +30,14 @@ nav li {
   display: inline-block;
   margin: 0 1rem;
 }
-strong {
+h1 {
+  color: hsl(0 0% 30%);
   font-weight: bold;
 }
-em {
-  font-style: italic;
-}
 a {
-  color: hsl(200,50%,60%);
+  color: hsl(200 50% 60%);
   text-decoration: none;
 }
-small {
-  font-size: smaller;
-}
-.center {
-  text-align: center;
-}
-.logo {
-  display: initial;
-  margin: 2rem 0 1rem;
-  width: 9.9rem;
+iframe {
+  display: block;
 }
