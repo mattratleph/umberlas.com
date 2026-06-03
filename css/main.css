@@ -9,7 +9,7 @@ body, header, footer {
 body {
   background: hsl(0 0% 98%);
   color: hsl(0 0% 60%);
-  font: 1.4rem/1.5 "Helvetica Neue", Arial, sans-serif;
+  font: 1.4rem/1.5 system-ui, sans-serif;
   grid: repeat(3, max-content) / minmax(auto, 75rem);
   justify-content: center;
   margin: 2rem;
